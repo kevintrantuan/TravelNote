@@ -1,4 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TravelNote" x:Class="TravelNote.TravelNotePage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TravelNote" x:Class="TravelNote.TravelNotePage">	
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArgument="Thickness"
+					iOS="20, 40, 20, 20"
+					Android="20, 20, 20, 20"
+					WinPhone="20, 20, 20, 20" />
+		</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="FillAndExpand"
+					 HorizontalOptions="FillAndExpand"
+					 Orientation="Vertical"
+					 BackgroundColor="Navy">
+		<StackLayout VerticalOptions="CenterAndExpand"
+					 HorizontalOptions="Center"
+					Orientation="Vertical">
+				<Label Text="Username:" TextColor = "Silver" />
+				<Entry x:Name="textLogin" Text="Enter your username" />
+				<Label Text="Password:" TextColor = "Silver" />
+				<Entry x:Name="textPassword" Text="Enter your password" />
+				<Button x:Name="buttonLogin" Text ="Login" IsEnabled="false"/>
+				<Button x:Name="buttonRegister" Text="Register" />
+				</StackLayout>
+			</StackLayout>
+		</ContentPage.Content>
+
 </ContentPage>
