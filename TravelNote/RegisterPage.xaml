@@ -1,5 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.RegisterPage">
 	<ContentPage.Content>
-	</ContentPage.Content>
+		<StackLayout VerticalOptions="FillAndExpand"
+					 HorizontalOptions="FillAndExpand"
+					 Orientation="Vertical"
+					 BackgroundColor="Navy">
+			
+		<StackLayout VerticalOptions="CenterAndExpand"
+					 HorizontalOptions="Center"
+					Orientation="Vertical">
+				<Label Text="Username:" TextColor = "Silver" />
+				<Entry x:Name="textLogin" Text="Enter your username" />
+				<Label Text="Password:" TextColor = "Silver" />
+				<Entry x:Name="textPassword" Text="Enter your password" />
+				<Label Text="Confirm Password:" TextColor = "Silver" />
+				<Entry x:Name="textConfirmPassword" Text="Enter your confirm password" />
+				<Label Text="Email:" TextColor="Silver" />
+				<Entry x:Name="textEmail" Text="Enter your email" />
+				<Button x:Name="buttonRegister" Text ="Login" IsEnabled="true"/>
+				<Button x:NameName="buttonClear" Text="Clear" />
+				</StackLayout>
+			
+			</StackLayout>
+		</ContentPage.Content>
 </ContentPage>
