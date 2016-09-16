@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace TravelNote
 {
@@ -8,7 +9,7 @@ namespace TravelNote
 		{
 			InitializeComponent();
 
-			MainPage = new DetailPage();
+			MainPage = new NavigationPage( new HomePage());
 		}
 
 		protected override void OnStart()
@@ -23,8 +24,10 @@ namespace TravelNote
 
 		protected override void OnResume()
 		{
-			// Handle when your app resumes
+					// Handle when your app resumes
 		}
+
+
 	}
 }
 

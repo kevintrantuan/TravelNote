@@ -12,10 +12,11 @@ namespace TravelNote
 			InitializeComponent();
 		}
 
-		void OnCallHistory(object sender, EventArgs e)
+		async void OnMyJourney(object sender, EventArgs e)
 		{
-
+			await Navigation.PushAsync(new MyJourney());
 		}
+
 	}
 }
 

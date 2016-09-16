@@ -11,6 +11,12 @@ namespace TravelNote
 		{
 			InitializeComponent();
 		}
+
+		async void OnDetail(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync(new DetailPage());
+		}
+
 	}
 }
 

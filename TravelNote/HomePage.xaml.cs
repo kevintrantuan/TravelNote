@@ -12,7 +12,15 @@ namespace TravelNote
 			InitializeComponent();
 		}
 
+		async void OnRegister(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync(new RegisterPage());
+		}
 
+		async void OnDiary(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync(new DiaryPage());
+		}
 	}
 }
 

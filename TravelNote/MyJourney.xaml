@@ -11,7 +11,7 @@
 					 HorizontalOptions="Center"
 					Orientation="Vertical">
 				
-				<Button x:Name="Destination1" Text ="GeeLong" />
+				<Button x:Name="Destination1" Text ="GeeLong" Clicked="OnDetail"/>
 				<Button x:Name="Destination2" Text="Perth" />
 				<Button x:Name="Destination3" Text="Adelaide" />
 				<Button x:Name="Destination4" Text="Habour" />
