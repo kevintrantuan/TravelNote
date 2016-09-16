@@ -1,11 +1,11 @@
 ﻿using System;
-namespace TravelNote
+namespace TravelNote.Common
 {
-	public class ICameraProvider
+	using System.Threading.Tasks;
+
+	public interface ICameraProvider
 	{
-		public ICameraProvider()
-		{
-		}
+		Task<CameraResult> TakePictureAsync();
 	}
 }
 

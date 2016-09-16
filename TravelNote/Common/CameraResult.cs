@@ -1,11 +1,15 @@
 ﻿using System;
-namespace TravelNote
+namespace TravelNote.Common
 {
+	using Xamarin.Forms;
+
 	public class CameraResult
 	{
-		public CameraResult()
-		{
-		}
+
+			public ImageSource Picture { get; set; }
+
+			public string FilePath { get; set; }
+
 	}
 }
 
