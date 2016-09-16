@@ -1,6 +1,5 @@
 ﻿using System;
 using Xamarin.Forms;
-
 namespace TravelNote
 {
 	public partial class App : Application
@@ -10,6 +9,7 @@ namespace TravelNote
 			InitializeComponent();
 
 			MainPage = new NavigationPage( new HomePage());
+
 		}
 
 		protected override void OnStart()
