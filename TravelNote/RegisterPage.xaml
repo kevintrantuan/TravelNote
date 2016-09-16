@@ -17,8 +17,8 @@
 				<Entry x:Name="textConfirmPassword" Text="Enter your confirm password" />
 				<Label Text="Email:" TextColor="Silver" />
 				<Entry x:Name="textEmail" Text="Enter your email" />
-				<Button x:Name="buttonRegister" Text ="Login" IsEnabled="true"/>
-				<Button x:NameName="buttonClear" Text="Clear" />
+				<Button x:Name="buttonRegister" Text ="Login" IsEnabled="true" />
+				<Button x:Name="buttonClear" Text="Clear" />
 				</StackLayout>
 			
 			</StackLayout>

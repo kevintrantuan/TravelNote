@@ -11,6 +11,11 @@ namespace TravelNote
 		{
 			InitializeComponent();
 		}
+
+		void OnCallHistory(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
 

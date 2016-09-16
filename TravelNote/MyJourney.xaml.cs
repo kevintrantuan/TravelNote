@@ -5,14 +5,12 @@ using Xamarin.Forms;
 
 namespace TravelNote
 {
-	public partial class HomePage : ContentPage
+	public partial class MyJourney : ContentPage
 	{
-		public HomePage()
+		public MyJourney()
 		{
 			InitializeComponent();
 		}
-
-
 	}
 }
 

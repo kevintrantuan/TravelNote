@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.DiaryPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.MyJourney">
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="FillAndExpand"
 					 HorizontalOptions="FillAndExpand"
@@ -11,10 +11,11 @@
 					 HorizontalOptions="Center"
 					Orientation="Vertical">
 				
-				<Button x:Name="ViewMyJourney" Text ="View My Journey" Clicked="OnCallHistory"/>
-				<Button x:Name="Camera" Text="Camera" />
-				<Button x:Name="Map" Text="Maps" />
-				<Button x:Name="Share" Text="Share" />
+				<Button x:Name="Destination1" Text ="GeeLong" />
+				<Button x:Name="Destination2" Text="Perth" />
+				<Button x:Name="Destination3" Text="Adelaide" />
+				<Button x:Name="Destination4" Text="Habour" />
+				<Button x:Name="Destination5" Text="Add" />
 				</StackLayout>
 			
 			</StackLayout>

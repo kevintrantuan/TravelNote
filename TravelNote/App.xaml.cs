@@ -8,7 +8,7 @@ namespace TravelNote
 		{
 			InitializeComponent();
 
-			MainPage = new RegisterPage();
+			MainPage = new DetailPage();
 		}
 
 		protected override void OnStart()

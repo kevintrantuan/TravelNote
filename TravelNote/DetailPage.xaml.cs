@@ -5,14 +5,16 @@ using Xamarin.Forms;
 
 namespace TravelNote
 {
-	public partial class HomePage : ContentPage
+	public partial class DetailPage : ContentPage
 	{
-		public HomePage()
+		public DetailPage()
 		{
 			InitializeComponent();
 		}
 
-
+		void OnSave(object sender, EventArgs e)
+		{
+		}
 	}
 }
 

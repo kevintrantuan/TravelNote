@@ -14,7 +14,7 @@
 				<Label Text="Password:" TextColor = "Silver" />
 				<Entry x:Name="textPassword" Text="Enter your password" />
 				<Button x:Name="buttonLogin" Text ="Login" IsEnabled="false"/>
-				<Button x:NameName="buttonRegister" Text="Register" />
+				<Button x:Name="buttonRegister" Text="Register" Clicked="OnRegister"/>
 				</StackLayout>
 			
 			</StackLayout>
