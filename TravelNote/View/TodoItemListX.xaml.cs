@@ -71,8 +71,8 @@ namespace TravelNote
 		{
 			base.OnAppearing();
 			// reset the 'resume' id, since we just want to re-start here
-			//((Detailhistory)App.Current).ResumeAtTodoId = -1;
-			//listView.ItemsSource = Detailhistory.Database.GetItems();
+			//((Detailhistory)Detailhistory.Current).ResumeAtTodoId = -1;
+			listView.ItemsSource = Detailhistory.Database.GetItems();
 		}
 
 		void listItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -81,7 +81,7 @@ namespace TravelNote
 			var todoPage = new TodoItemPageX();
 			todoPage.BindingContext = todoItem;
 
-			((Detailhistory)App.Current).ResumeAtTodoId = todoItem.ID;
+			//((Detailhistory)App.Current).ResumeAtTodoId = todoItem.ID;
 			Debug.WriteLine("setting ResumeAtTodoId = " + todoItem.ID);
 
 			Navigation.PushAsync(todoPage);

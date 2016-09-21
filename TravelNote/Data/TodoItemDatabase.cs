@@ -30,6 +30,7 @@ namespace TravelNote
 		{
 			lock (locker)
 			{
+				
 				return (from i in database.Table<TodoItem>() select i).ToList();
 			}
 		}

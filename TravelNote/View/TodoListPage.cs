@@ -1,8 +1,7 @@
 ﻿//using Xamarin.Forms;
 //using System.Diagnostics;
 
-//namespace TravelNote
-//{
+//namespace TravelNote//{
 //    public class TodoListPage : ContentPage
 //    {
 //        ListView listView;

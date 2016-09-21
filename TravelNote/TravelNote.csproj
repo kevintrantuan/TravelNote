@@ -60,8 +60,6 @@
     <Compile Include="View\TodoItemPageX.xaml.cs">
       <DependentUpon>TodoItemPageX.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\TodoItemPage.cs" />
-    <Compile Include="View\TodoListPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
