@@ -14,7 +14,7 @@ namespace TravelNote
 
 		async void OnMyJourney(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync(new MyJourney());
+			await Navigation.PushAsync((Xamarin.Forms.Page)new TodoItemListX());
 		}
 
 	}

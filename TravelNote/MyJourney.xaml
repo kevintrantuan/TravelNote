@@ -15,6 +15,7 @@
 				<Button x:Name="Destination2" Text="Perth" />
 				<Button x:Name="Destination3" Text="Adelaide" />
 				<Button x:Name="Destination4" Text="Habour" />
+				<Button x:Name="Destination6" Text="asdsadf" />
 				<Button x:Name="Destination5" Text="Add" />
 				</StackLayout>
 			

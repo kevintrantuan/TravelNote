@@ -1,23 +1,27 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
-using Foundation;
 using UIKit;
+using Foundation;
 
-namespace TravelNote.iOS
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
+
+namespace TravelNote
 {
 	[Register("AppDelegate")]
-	public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
+	public partial class AppDelegate : FormsApplicationDelegate
 	{
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
-			global::Xamarin.Forms.Forms.Init();
+			// affects all UISwitch controls in the app
+			UISwitch.Appearance.OnTintColor = UIColor.FromRGB(0x91, 0xCA, 0x47);
 
+			Forms.Init();
 			LoadApplication(new App());
-
 			return base.FinishedLaunching(app, options);
 		}
 	}
 }
-
