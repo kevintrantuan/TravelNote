@@ -12,6 +12,7 @@
 					Orientation="Vertical">
 				
 				<Button x:Name="ViewMyJourney" Text ="View My Journey" Clicked="OnMyJourney"/>
+				<Button x:Name="ViewWeather" Text ="View Weather" Clicked="OnViewWeather"/>
 				<Button x:Name="Camera" Text="Camera" />
 				<Button x:Name="Map" Text="Maps" />
 				<Button x:Name="Share" Text="Share" />

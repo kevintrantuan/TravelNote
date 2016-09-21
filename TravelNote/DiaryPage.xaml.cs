@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using MyWeather.View;
 
 using Xamarin.Forms;
 
@@ -17,6 +18,10 @@ namespace TravelNote
 			await Navigation.PushAsync((Xamarin.Forms.Page)new TodoItemListX());
 		}
 
+		async void OnViewWeather(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync((Xamarin.Forms.Page)new WeatherView());
+		}
 	}
 }
 
