@@ -134,9 +134,12 @@
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\TravelNoteIcon%403x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\TravelNoteIcon%402x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Bg.imageset\bg%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Bg.imageset\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\Bg.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -157,6 +160,12 @@
     <BundleResource Include="Resources\check.png" />
     <BundleResource Include="Resources\check%402x.png" />
     <BundleResource Include="Resources\check%403x.png" />
+    <BundleResource Include="Resources\bg.jpg" />
+    <BundleResource Include="Resources\bg2.png" />
+    <BundleResource Include="Resources\bg3.png" />
+    <BundleResource Include="Resources\bg4.jpg" />
+    <BundleResource Include="Resources\bg5.png" />
+    <BundleResource Include="Resources\bg%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.0.1.6495\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.0.1.6495\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

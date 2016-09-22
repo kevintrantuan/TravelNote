@@ -2,7 +2,7 @@
 <ContentPage
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	x:Class="TravelNote.ShareImagePage">
+	x:Class="TravelNote.ShareImagePage" BackgroundImage="bg@2x.png">
 
 	<ContentPage.ToolbarItems>
 		<ToolbarItem Text="Share" Order="Secondary" Command="{Binding Share}" Name="Action" />

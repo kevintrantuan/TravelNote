@@ -128,6 +128,10 @@
     <AndroidResource Include="Resources\drawable-xhdpi\TravelNoteIcon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\TravelNoteIcon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\TravelNoteIcon.png" />
+    <AndroidResource Include="Resources\drawable\bg.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

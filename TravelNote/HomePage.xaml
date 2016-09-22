@@ -1,20 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.HomePage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.HomePage" BackgroundImage="bg@2x.png">
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="FillAndExpand"
 					 HorizontalOptions="FillAndExpand"
-					 Orientation="Vertical"
-					 BackgroundColor="Navy">
+					 Orientation="Vertical">
 			
 		<StackLayout VerticalOptions="CenterAndExpand"
 					 HorizontalOptions="Center"
 					Orientation="Vertical">
-				<Label Text="Username:" TextColor = "Silver" />
+				<Label Text="Username:" TextColor = "White" />
 				<Entry x:Name="textLogin" Text="Enter your username" />
-				<Label Text="Password:" TextColor = "Silver" />
+				<Label Text="Password:" TextColor = "White" />
 				<Entry x:Name="textPassword" Text="Enter your password" />
-				<Button x:Name="buttonLogin" Text ="Login" Clicked="OnDiary"/>
-				<Button x:Name="buttonRegister" Text="Register" Clicked="OnRegister"/>
+				<Button x:Name="buttonLogin" Text ="Login" Clicked="OnDiary" TextColor="Navy"/>
+				<Button x:Name="buttonRegister" Text="Register" Clicked="OnRegister" TextColor="Navy"/>
 				</StackLayout>
 			
 			</StackLayout>
