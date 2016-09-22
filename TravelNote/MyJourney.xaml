@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.MyJourney" BackgroundImage="TravelNoteIcon.png">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="FillAndExpand"
+					 HorizontalOptions="FillAndExpand"
+					 Orientation="Vertical"					
+				     Spacing="15">
+			
+		<StackLayout VerticalOptions="CenterAndExpand"
+					 HorizontalOptions="Center"
+					Orientation="Vertical">
+				
+				<Button x:Name="Destination1" Text ="GeeLong" Clicked="OnDetail"/>
+				<Button x:Name="Destination2" Text="Perth" />
+				<Button x:Name="Destination3" Text="Adelaide" />
+				<Button x:Name="Destination4" Text="Habour" />
+				<Button x:Name="Destination5" Text="Add" />
+				</StackLayout>
+			
+			</StackLayout>
+		</ContentPage.Content>
+</ContentPage>
