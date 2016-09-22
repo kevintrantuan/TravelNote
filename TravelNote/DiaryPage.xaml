@@ -11,8 +11,8 @@
 					Orientation="Vertical">
 				
 				<Button x:Name="ViewMyJourney" Text ="View My Journey" Clicked="OnMyJourney" TextColor="White"/>
-				<Button x:Name="Camera" Text="Camera" Clicked="OnCamera"  TextColor="White"/>
-				<Button x:Name="Map" Text="Maps"  TextColor="White"/>
+				<Button x:Name="Camera" Text="Camera" Clicked="OnCamera" TextColor="White"/>
+				<Button x:Name="Map" Text="Maps" Clicked="OnMaps" TextColor="White"/>
 				<Button x:Name="Share" Text="Share" Clicked="OnShare"  TextColor="White"/>
 				</StackLayout>
 			

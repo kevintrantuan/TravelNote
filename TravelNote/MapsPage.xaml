@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.MapsPage" BackgroundImage="bg@2x.png">
+	<ContentPage.Content>
+		<Button x:Name="Street" Text="Street" Clicked="OnStreet"></Button>
+		<Button x:Name="Hybrid" Text="Hybrid" Clicked="OnHybrid"></Button>
+		<Button x:Name="Satellite" Text="Satellite" Clicked="OnSatellite"></Button>
+	</ContentPage.Content>
+</ContentPage>

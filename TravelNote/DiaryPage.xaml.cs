@@ -26,6 +26,10 @@ namespace TravelNote
 		{
 			await Navigation.PushAsync((Xamarin.Forms.Page)new ShareImagePage());
 		}
+		async void OnMaps(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync((Xamarin.Forms.Page)new MapsPage());
+		}
 
 	}
 }

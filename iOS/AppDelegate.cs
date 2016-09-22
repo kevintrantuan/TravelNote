@@ -2,6 +2,7 @@
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
+using Xamarin.Forms.Maps;
 
 namespace TravelNote.iOS
 {
@@ -11,6 +12,7 @@ namespace TravelNote.iOS
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
 			Forms.Init();
+			Xamarin.FormsMaps.Init();
 
 			// Code for starting up the Xamarin Test Cloud Agent
 #if ENABLE_TEST_CLOUD
