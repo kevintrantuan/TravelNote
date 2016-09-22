@@ -12,9 +12,9 @@
 					Orientation="Vertical">
 				
 				<Button x:Name="ViewMyJourney" Text ="View My Journey" Clicked="OnMyJourney"/>
-				<Button x:Name="Camera" Text="Camera" />
+				<Button x:Name="Camera" Text="Camera" Clicked="OnCamera" />
 				<Button x:Name="Map" Text="Maps" />
-				<Button x:Name="Share" Text="Share" />
+				<Button x:Name="Share" Text="Share" Clicked="OnShare"/>
 				</StackLayout>
 			
 			</StackLayout>

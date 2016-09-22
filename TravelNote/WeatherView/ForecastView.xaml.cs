@@ -6,10 +6,10 @@ namespace MyWeather.View
 	{
 		public ForecastView()
 		{
-			InitializeComponent();
+			//InitializeComponent();
 			if (Device.OS == TargetPlatform.iOS)
 				Icon = new FileImageSource { File = "tab2.png" };
-			ListViewWeather.ItemTapped += (sender, args) => ListViewWeather.SelectedItem = null;
+			//ListViewWeather.ItemTapped += (sender, args) => ListViewWeather.SelectedItem = null;
 		}
 	}
 }

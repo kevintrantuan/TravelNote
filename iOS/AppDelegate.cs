@@ -1,27 +1,46 @@
-﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-
+﻿using Foundation;
 using UIKit;
-using Foundation;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-namespace TravelNote
+namespace TravelNote.iOS
 {
 	[Register("AppDelegate")]
 	public partial class AppDelegate : FormsApplicationDelegate
 	{
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
-			// affects all UISwitch controls in the app
-			UISwitch.Appearance.OnTintColor = UIColor.FromRGB(0x91, 0xCA, 0x47);
-
 			Forms.Init();
+
+			// Code for starting up the Xamarin Test Cloud Agent
+#if ENABLE_TEST_CLOUD
+			Xamarin.Calabash.Start();
+#endif
+
 			LoadApplication(new App());
+
+			MessagingCenter.Subscribe<ImageSource>(this, "Share", Share, null);
+
 			return base.FinishedLaunching(app, options);
+		}
+
+		async void Share(ImageSource imageSource)
+		{
+			var handler = new ImageLoaderSourceHandler();
+			var uiImage = await handler.LoadImageAsync(imageSource);
+
+			var item = NSObject.FromObject(uiImage);
+			var activityItems = new[] { item };
+			var activityController = new UIActivityViewController(activityItems, null);
+
+			var topController = UIApplication.SharedApplication.KeyWindow.RootViewController;
+
+			while (topController.PresentedViewController != null)
+			{
+				topController = topController.PresentedViewController;
+			}
+
+			topController.PresentViewController(activityController, true, () => { });
 		}
 	}
 }
