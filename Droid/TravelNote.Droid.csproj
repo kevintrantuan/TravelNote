@@ -128,10 +128,6 @@
     <AndroidResource Include="Resources\drawable-xhdpi\TravelNoteIcon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\TravelNoteIcon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\TravelNoteIcon.png" />
-    <AndroidResource Include="Resources\drawable\bg.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bg.jpg" />
-    <AndroidResource Include="Resources\drawable-xhdpi\bg.jpg" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\bg.jpg" />
     <AndroidResource Include="Resources\drawable\login1.png" />
     <AndroidResource Include="Resources\drawable\register1.png" />
     <AndroidResource Include="Resources\drawable-hdpi\login1.png" />
@@ -160,6 +156,10 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\glyphish_13_target.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\glyphish_74_location.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\glyphish_103_map.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable\bg.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

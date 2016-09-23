@@ -29,21 +29,6 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="View\Detailhistory.cs" />
-    <Compile Include="View\ISQLite.cs" />
-    <Compile Include="View\ITextToSpeech.cs" />
-    <EmbeddedResource Include="View\TravelNoteList.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <Compile Include="View\TravelNoteList.cs">
-      <DependentUpon>TravelNoteList.xaml</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="View\ListPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <Compile Include="View\ListPage.cs">
-      <DependentUpon>ListPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Common1\CameraResults.cs" />
     <Compile Include="Common1\ICameraProvider.cs" />
     <Compile Include="Common1\ObservableObject.cs" />
@@ -95,6 +80,21 @@
       <DependentUpon>ShareImagePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ShareImageViewModel.cs" />
+    <Compile Include="Views\Detailhistory.cs" />
+    <Compile Include="Views\ISQLite.cs" />
+    <Compile Include="Views\ITextToSpeech.cs" />
+    <EmbeddedResource Include="Views\ListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Views\ListPage.cs">
+      <DependentUpon>ListPage.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\TravelNoteList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Views\TravelNoteList.cs">
+      <DependentUpon>TravelNoteList.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -157,7 +157,6 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Data\" />
-    <Folder Include="View\" />
     <Folder Include="Toolkit.Content\" />
     <Folder Include="Common1\" />
     <Folder Include="ViewModels\" />

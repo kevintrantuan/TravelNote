@@ -23,14 +23,14 @@ namespace TravelNote.Droid
 
 			// This is where we copy in the prepopulated database
 			Console.WriteLine(path);
-			if (!File.Exists(path))
+			//if (!File.Exists(path))
 			{
-				var s = Forms.Context.Resources.OpenRawResource(Resource.Raw.TodoSQLite);  // RESOURCE NAME ###
+				//var s = Forms.Context.Resources.OpenRawResource(Resource.Raw.TodoSQLite);  // RESOURCE NAME ###
 
 				// create a write stream
-				FileStream writeStream = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write);
+				//FileStream writeStream = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write);
 				// write to the stream
-				ReadWriteStream(s, writeStream);
+			//	ReadWriteStream(s, writeStream);
 			}
 
 			var conn = new SQLite.SQLiteConnection(path);
