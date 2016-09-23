@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.RegisterPage" BackgroundImage="bg@2x.png">
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="FillAndExpand"
@@ -8,16 +8,20 @@
 		<StackLayout VerticalOptions="CenterAndExpand"
 					 HorizontalOptions="Center"
 					Orientation="Vertical">
-				<Label Text="Username:" TextColor = "Silver" />
-				<Entry x:Name="textLogin" Text="Enter your username" />
-				<Label Text="Password:" TextColor = "Silver" />
-				<Entry x:Name="textPassword" Text="Enter your password" />
-				<Label Text="Confirm Password:" TextColor = "Silver" />
-				<Entry x:Name="textConfirmPassword" Text="Enter your confirm password" />
-				<Label Text="Email:" TextColor="Silver" />
-				<Entry x:Name="textEmail" Text="Enter your email" />
-				<Button x:Name="buttonRegister" Text ="Login" IsEnabled="true" />
-				<Button x:Name="buttonClear" Text="Clear" />
+				<Label Text="Username:" TextColor = "#1654b7" Font="Bold,20" />
+				<Entry x:Name="textLogin" Placeholder="Enter your username" PlaceholderColor="Gray"/>
+				<BoxView HeightRequest="5"/>
+				<Label Text="Password:" TextColor = "#1654b7" Font="Bold,20" />
+				<Entry x:Name="textPassword" IsPassword="true" Placeholder="Enter your password" PlaceholderColor="Gray"/>
+				<BoxView HeightRequest="5"/>
+				<Label Text="Confirm Password:" TextColor = "#1654b7" Font="Bold,20" />
+				<Entry x:Name="textConfirmPassword" IsPassword="true" Placeholder="Enter your confirm password" PlaceholderColor="Gray"/>
+				<BoxView HeightRequest="5"/>
+				<Label Text="Email:" TextColor = "#1654b7" Font="Bold,20" />
+				<Entry x:Name="textEmail" Placeholder="Enter your email" PlaceholderColor="Gray"/>
+				<BoxView HeightRequest="8"/>
+				<Button x:Name="buttonRegister" Image="register1.png" Clicked="OnRegister"/>
+				<Button x:Name="buttonClear" Image="clear1.png" Clicked="OnClear"/>
 				</StackLayout>
 			
 			</StackLayout>

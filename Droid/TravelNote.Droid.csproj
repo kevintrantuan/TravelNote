@@ -132,6 +132,18 @@
     <AndroidResource Include="Resources\drawable-hdpi\bg.jpg" />
     <AndroidResource Include="Resources\drawable-xhdpi\bg.jpg" />
     <AndroidResource Include="Resources\drawable-xxhdpi\bg.jpg" />
+    <AndroidResource Include="Resources\drawable\login1.png" />
+    <AndroidResource Include="Resources\drawable\register1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\login1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\register1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\login1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\register1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\login1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\register1.png" />
+    <AndroidResource Include="Resources\drawable\clear1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\clear1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\clear1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\clear1.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

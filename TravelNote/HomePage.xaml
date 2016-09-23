@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.HomePage" BackgroundImage="bg@2x.png">
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="FillAndExpand"
@@ -7,13 +7,23 @@
 			
 		<StackLayout VerticalOptions="CenterAndExpand"
 					 HorizontalOptions="Center"
-					Orientation="Vertical">
-				<Label Text="Username:" TextColor = "White" />
-				<Entry x:Name="textLogin" Text="Enter your username" />
-				<Label Text="Password:" TextColor = "White" />
-				<Entry x:Name="textPassword" Text="Enter your password" />
-				<Button x:Name="buttonLogin" Text ="Login" Clicked="OnDiary" TextColor="Navy"/>
-				<Button x:Name="buttonRegister" Text="Register" Clicked="OnRegister" TextColor="Navy"/>
+					Orientation="Vertical"
+					>
+				<Label Text="Username:" TextColor = "#1654b7" Font="Bold,20"/>
+				<BoxView HeightRequest="5"/>
+				<Entry x:Name="textLogin" Placeholder="Enter your username" PlaceholderColor="Gray"/>
+
+				<BoxView HeightRequest="8"/>
+				<Label Text="Password:" TextColor = "#1654b7" Font="Bold,20" />
+				<BoxView HeightRequest="5"/>
+				<Entry x:Name="textPassword" IsPassword="true" Placeholder="Enter your password" PlaceholderColor="Gray" />
+
+				<BoxView HeightRequest="10"/>
+				<Button x:Name="buttonLogin" Image="Login1.png" Clicked="OnLogin"/>
+				<BoxView HeightRequest="5"/>				
+				<Button x:Name="buttonRegister" Image="Register1.png" Clicked="OnRegister"/>
+				<BoxView HeightRequest="80"/>
+				<Label x:Name="lblInfo" Text="" TextColor = "Red" Font="20"/>
 				</StackLayout>
 			
 			</StackLayout>

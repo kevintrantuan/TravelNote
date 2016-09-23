@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelNote.DiaryPage" BackgroundImage="bg@2x.png">
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="FillAndExpand"
@@ -10,10 +10,10 @@
 					 HorizontalOptions="Center"
 					Orientation="Vertical">
 				
-				<Button x:Name="ViewMyJourney" Text ="View My Journey" Clicked="OnMyJourney" TextColor="White"/>
-				<Button x:Name="Camera" Text="Camera" Clicked="OnCamera" TextColor="White"/>
-				<Button x:Name="Map" Text="Maps" Clicked="OnMaps" TextColor="White"/>
-				<Button x:Name="Share" Text="Share" Clicked="OnShare"  TextColor="White"/>
+				<Button x:Name="ViewMyJourney" Text ="View My Journey" Clicked="OnMyJourney" TextColor = "#1654b7" Font="Bold,20"/>
+				<Button x:Name="Camera" Text="Camera" Clicked="OnCamera" TextColor = "#1654b7" Font="Bold,20"/>
+				<Button x:Name="Map" Text="Maps" Clicked="OnMaps" TextColor = "#1654b7" Font="Bold,20"/>
+				<Button x:Name="Share" Text="Share" Clicked="OnShare"  TextColor = "#1654b7" Font="Bold,20"/>
 				</StackLayout>
 			
 			</StackLayout>
