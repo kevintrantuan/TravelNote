@@ -144,6 +144,22 @@
     <AndroidResource Include="Resources\drawable-hdpi\clear1.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\clear1.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\clear1.png" />
+    <AndroidResource Include="Resources\drawable\glyphish_07_map_marker.png" />
+    <AndroidResource Include="Resources\drawable\glyphish_13_target.png" />
+    <AndroidResource Include="Resources\drawable\glyphish_74_location.png" />
+    <AndroidResource Include="Resources\drawable\glyphish_103_map.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\glyphish_07_map_marker.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\glyphish_13_target.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\glyphish_74_location.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\glyphish_103_map.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\glyphish_07_map_marker.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\glyphish_13_target.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\glyphish_74_location.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\glyphish_103_map.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\glyphish_07_map_marker.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\glyphish_13_target.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\glyphish_74_location.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\glyphish_103_map.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

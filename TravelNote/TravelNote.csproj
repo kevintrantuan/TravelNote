@@ -90,12 +90,10 @@
       <DependentUpon>ShareImagePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ShareImageViewModel.cs" />
-    <EmbeddedResource Include="MapsPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <Compile Include="MapsPage.xaml.cs">
-      <DependentUpon>MapsPage.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="GeocoderPage.cs" />
+    <Compile Include="MapAppPage.cs" />
+    <Compile Include="MapPage.cs" />
+    <Compile Include="PinPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
