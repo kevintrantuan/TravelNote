@@ -14,7 +14,7 @@ namespace TravelNote
 
 		async void OnMyJourney(object sender, EventArgs e)
 		{
-			await Navigation.PushAsync((Xamarin.Forms.Page)new TodoItemListX());
+			await Navigation.PushAsync((Xamarin.Forms.Page)new TravelNoteList());
 		}
 
 		async void OnCamera(object sender, EventArgs e)

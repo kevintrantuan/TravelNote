@@ -3,9 +3,9 @@ using SQLite;
 
 namespace TravelNote
 {
-	public class TodoItem
+	public class NoteItem
 	{
-		public TodoItem ()
+		public NoteItem ()
 		{
 		}
 
@@ -14,5 +14,6 @@ namespace TravelNote
 		public string Name { get; set; }
 		public string Notes { get; set; }
 		public bool Done { get; set; }
+		public DateTime Date { get; set; }
 	}
 }

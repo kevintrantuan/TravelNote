@@ -29,95 +29,77 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="RegisterPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DiaryPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyJourney.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DetailPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HomePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <Compile Include="View\Detailhistory.cs" />
     <Compile Include="View\ISQLite.cs" />
     <Compile Include="View\ITextToSpeech.cs" />
-    <EmbeddedResource Include="View\TodoItemListX.xaml">
+    <EmbeddedResource Include="View\TravelNoteList.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <Compile Include="View\TodoItemListX.xaml.cs">
-      <DependentUpon>TodoItemListX.xaml</DependentUpon>
+    <Compile Include="View\TravelNoteList.cs">
+      <DependentUpon>TravelNoteList.xaml</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\TodoItemPageX.xaml">
+    <EmbeddedResource Include="View\ListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <Compile Include="View\TodoItemPageX.xaml.cs">
-      <DependentUpon>TodoItemPageX.xaml</DependentUpon>
+    <Compile Include="View\ListPage.cs">
+      <DependentUpon>ListPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Helper\Settings.cs" />
-    <Compile Include="Models\Weather.cs" />
-    <Compile Include="Services\WeatherService.cs" />
-    <EmbeddedResource Include="WeatherView\ForecastView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <Compile Include="WeatherView\ForecastView.xaml.cs">
-      <DependentUpon>ForecastView.xaml</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="WeatherView\WeatherView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <Compile Include="WeatherView\WeatherView.xaml.cs">
-      <DependentUpon>WeatherView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WeatherViewModel\WeatherViewModel.cs" />
-    <Compile Include="WeatherViewModel\WeatherApp.cs" />
     <Compile Include="Common1\CameraResults.cs" />
     <Compile Include="Common1\ICameraProvider.cs" />
     <Compile Include="Common1\ObservableObject.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ViewModels\TakePictureViewModel.cs" />
     <Compile Include="Views\TakePicturePage.xaml.cs" />
-    <EmbeddedResource Include="ShareImagePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <Compile Include="ShareImagePage.xaml.cs">
-      <DependentUpon>ShareImagePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ShareImageViewModel.cs" />
-    <Compile Include="GeocoderPage.cs" />
-    <Compile Include="MapAppPage.cs" />
-    <Compile Include="MapPage.cs" />
-    <Compile Include="PinPage.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="App.xaml.cs">
+    <EmbeddedResource Include="Views\App.xaml" />
+    <Compile Include="Views\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HomePage.xaml.cs">
-      <DependentUpon>HomePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="RegisterPage.xaml.cs">
-      <DependentUpon>RegisterPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="DiaryPage.xaml.cs">
-      <DependentUpon>DiaryPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyJourney.xaml.cs">
-      <DependentUpon>MyJourney.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="DetailPage.xaml.cs">
+    <EmbeddedResource Include="Views\DetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Views\DetailPage.xaml.cs">
       <DependentUpon>DetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccessToDatabase.cs" />
-    <Compile Include="Models\TodoItem.cs" />
-    <Compile Include="Data\TodoItemDatabase.cs" />
+    <EmbeddedResource Include="Views\DiaryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Views\DiaryPage.xaml.cs">
+      <DependentUpon>DiaryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GeocoderPage.cs" />
+    <EmbeddedResource Include="Views\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Views\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MapAppPage.cs" />
+    <Compile Include="Views\MapPage.cs" />
+    <EmbeddedResource Include="Views\MyJourney.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Views\MyJourney.xaml.cs">
+      <DependentUpon>MyJourney.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PinPage.cs" />
+    <EmbeddedResource Include="Views\RegisterPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Views\RegisterPage.xaml.cs">
+      <DependentUpon>RegisterPage.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\ShareImagePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Include="Views\ShareImagePage.xaml.cs">
+      <DependentUpon>ShareImagePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShareImageViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\Notetem.cs" />
+    <Compile Include="Data\TravelNoteDatabase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -177,10 +159,6 @@
     <Folder Include="Data\" />
     <Folder Include="View\" />
     <Folder Include="Toolkit.Content\" />
-    <Folder Include="Helper\" />
-    <Folder Include="Services\" />
-    <Folder Include="WeatherView\" />
-    <Folder Include="WeatherViewModel\" />
     <Folder Include="Common1\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\" />

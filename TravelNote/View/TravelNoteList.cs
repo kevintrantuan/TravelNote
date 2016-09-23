@@ -9,9 +9,9 @@ using Xamarin.Forms;
 
 namespace TravelNote
 {
-	public partial class TodoItemListX : ContentPage
+	public partial class TravelNoteList : ContentPage
 	{
-		public TodoItemListX()
+		public TravelNoteList()
 		{
 			InitializeComponent();
 
@@ -21,8 +21,8 @@ namespace TravelNote
 			{
 				tbi = new ToolbarItem("+", null, () =>
 				{
-					var todoItem = new TodoItem();
-					var todoPage = new TodoItemPageX();
+					var todoItem = new NoteItem();
+					var todoPage = new ListPage();
 					todoPage.BindingContext = todoItem;
 					Navigation.PushAsync(todoPage);
 				}, 0, 0);
@@ -31,8 +31,8 @@ namespace TravelNote
 			{ // BUG: Android doesn't support the icon being null
 				tbi = new ToolbarItem("+", "plus", () =>
 				{
-					var todoItem = new TodoItem();
-					var todoPage = new TodoItemPageX();
+					var todoItem = new NoteItem();
+					var todoPage = new ListPage();
 					todoPage.BindingContext = todoItem;
 					Navigation.PushAsync(todoPage);
 				}, 0, 0);
@@ -41,8 +41,8 @@ namespace TravelNote
 			{
 				tbi = new ToolbarItem("Add", "add.png", () =>
 				{
-					var todoItem = new TodoItem();
-					var todoPage = new TodoItemPageX();
+					var todoItem = new NoteItem();
+					var todoPage = new ListPage();
 					todoPage.BindingContext = todoItem;
 					Navigation.PushAsync(todoPage);
 				}, 0, 0);
@@ -77,8 +77,8 @@ namespace TravelNote
 
 		void listItemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
-			var todoItem = (TodoItem)e.SelectedItem;
-			var todoPage = new TodoItemPageX();
+			var todoItem = (NoteItem)e.SelectedItem;
+			var todoPage = new ListPage();
 			todoPage.BindingContext = todoItem;
 
 			//((Detailhistory)App.Current).ResumeAtTodoId = todoItem.ID;
