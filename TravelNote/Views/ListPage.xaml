@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravelNote.ListPage"
@@ -13,13 +13,13 @@
     <Label Text="Done" />
     <Switch x:Name="doneEntry" IsToggled="{Binding Done}"/>
 
-    <Button Text="Save" Clicked="saveClicked"/>
+    <Button  Image="save.png" Clicked="saveClicked"/>
 
-    <Button Text="Delete" Clicked="deleteClicked"/>
+    <Button  Image="delete.png" Clicked="deleteClicked"/>
 
-    <Button Text="Cancel" Clicked="cancelClicked"/>
+    <Button  Image="cancel.png" Clicked="cancelClicked"/>
 
-    <Button Text="Speak" Clicked="speakClicked"/>
+    <Button  Image="speak.png" Clicked="speakClicked"/>
 
   </StackLayout>
 

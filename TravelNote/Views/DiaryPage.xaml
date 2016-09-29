@@ -10,10 +10,10 @@
 					 HorizontalOptions="Center"
 					Orientation="Vertical">
 				
-				<Button x:Name="ViewMyJourney" Text ="View My Journey" Clicked="OnMyJourney" TextColor = "#1654b7" Font="Bold,20"/>
-				<Button x:Name="Camera" Text="Camera" Clicked="OnCamera" TextColor = "#1654b7" Font="Bold,20"/>
-				<Button x:Name="Map" Text="Maps" Clicked="OnMaps" TextColor = "#1654b7" Font="Bold,20"/>
-				<Button x:Name="Share" Text="Share" Clicked="OnShare"  TextColor = "#1654b7" Font="Bold,20"/>
+				<Button x:Name="ViewMyJourney" Image="viewjourney.png" Clicked="OnMyJourney" TextColor = "#1654b7" Font="Bold,20"/>
+				<Button x:Name="Camera"  Image="camera.png" Clicked="OnCamera" TextColor = "#1654b7" Font="Bold,20"/>
+				<Button x:Name="Map"  Image="maps.png" Clicked="OnMaps" TextColor = "#1654b7" Font="Bold,20"/>
+				<Button x:Name="Share" Image="share.png"  Clicked="OnShare"  TextColor = "#1654b7" Font="Bold,20"/>
 				</StackLayout>
 			
 			</StackLayout>

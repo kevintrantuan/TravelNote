@@ -176,6 +176,14 @@
     <BundleResource Include="Resources\glyphish_74_location.png" />
     <BundleResource Include="Resources\glyphish_103_map.png" />
     <BundleResource Include="Resources\bg.png" />
+    <BundleResource Include="Resources\speak.png" />
+    <BundleResource Include="Resources\cancel.png" />
+    <BundleResource Include="Resources\delete.png" />
+    <BundleResource Include="Resources\save.png" />
+    <BundleResource Include="Resources\share.png" />
+    <BundleResource Include="Resources\maps.png" />
+    <BundleResource Include="Resources\camera.png" />
+    <BundleResource Include="Resources\viewjourney.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

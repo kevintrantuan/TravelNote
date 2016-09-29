@@ -10,3 +10,4 @@
 
     <Image x:Name="LogoImage" Source="http://www.wintellect.com/devcenter/wp-content/uploads/2013/10/Wintellect_logo.gif" IsVisible="false" Aspect="AspectFit" />
 </ContentPage>
+ 
