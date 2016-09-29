@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -8,5 +8,5 @@
 		<ToolbarItem Text="Share" Order="Secondary" Command="{Binding Share}" Name="Action" />
 	</ContentPage.ToolbarItems>
 
-	<Image x:Name="LogoImage" Source="http://www.wintellect.com/devcenter/wp-content/uploads/2013/10/Wintellect_logo.gif" Aspect="AspectFit" IsVisible = "false"/>
+	<Image x:Name="LogoImage" Source="http://www.wintellect.com/devcenter/wp-content/uploads/2013/10/Wintellect_logo.gif" Aspect="AspectFit"/>
 </ContentPage>
