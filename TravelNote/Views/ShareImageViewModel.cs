@@ -2,10 +2,9 @@
 
 namespace TravelNote
 {
-	public class ShareImageViewModel
+		public class ShareImageViewModel
 	{
 		public Command Share { get; set; }
-
 		public ImageSource Source { get; set; }
 
 		public ShareImageViewModel()
